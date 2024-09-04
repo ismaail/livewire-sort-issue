@@ -2,6 +2,7 @@
 
 namespace Database\Seeders;
 
+use App\Models\Column;
 use App\Models\User;
 // use Illuminate\Database\Console\Seeds\WithoutModelEvents;
 use Illuminate\Database\Seeder;
@@ -19,5 +20,16 @@ class DatabaseSeeder extends Seeder
             'name' => 'Test User',
             'email' => 'test@example.com',
         ]);
+
+        for ($i = 1; $i <= 3; $i++) {
+            $column = Column::create(['name' => "Column $i"]);
+
+            for ($j = 1; $j <= 4; $j++) {
+                $column->tasks()->create([
+                    'name' => str()->random(10),
+                    'position' => $j - 1,
+                ]);
+            }
+        }
     }
 }
