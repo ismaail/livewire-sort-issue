@@ -8,3 +8,5 @@
 4. Build assets with `npm run build` 
 5. Run `php artisan serve`
 6. Open the url in `http://localhost:8000` your browser 
+
+![image](https://github.com/user-attachments/assets/ca61f44b-8c07-4d85-a3f0-3f74bc61ea54)
