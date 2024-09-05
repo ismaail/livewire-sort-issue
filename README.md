@@ -7,6 +7,6 @@
 3. Install the assets with `yarn` or `npm install`
 4. Build assets with `npm run build` 
 5. Run `php artisan serve`
-6. Open the url in `http://localhost:8000` your browser 
+6. Open the url in `http://localhost:8000` your browser
 
-![image](https://github.com/user-attachments/assets/ca61f44b-8c07-4d85-a3f0-3f74bc61ea54)
+[Peek 2024-09-05 19-14.webm](https://github.com/user-attachments/assets/a014de0d-5016-4bba-8e2c-d581b83638dc)
