@@ -1,11 +1,6 @@
 <?php
 
-use App\Models\Column;
+use App\Livewire\HomeComponent;
 use Illuminate\Support\Facades\Route;
 
-Route::get('/', function () {
-    return view('welcome')->with(
-        'columns',
-        Column::with('tasks')->get()
-    );
-});
+Route::get('/', HomeComponent::class);
