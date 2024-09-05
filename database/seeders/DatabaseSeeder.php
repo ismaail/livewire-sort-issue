@@ -21,8 +21,10 @@ class DatabaseSeeder extends Seeder
             'email' => 'test@example.com',
         ]);
 
-        for ($i = 1; $i <= 3; $i++) {
-            $column = Column::create(['name' => "Column $i"]);
+        $columns = ['A', 'B', 'C'];
+
+        foreach ($columns as $column) {
+            $column = Column::create(['name' => "Column $column"]);
 
             for ($j = 1; $j <= 4; $j++) {
                 $column->tasks()->create([
