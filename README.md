@@ -9,4 +9,4 @@
 5. Run `php artisan serve`
 6. Open the url in `http://localhost:8000` your browser
 
-[Peek 2024-09-05 19-14.webm](https://github.com/user-attachments/assets/a014de0d-5016-4bba-8e2c-d581b83638dc)
+[Peek 2024-09-05 19-18.webm](https://github.com/user-attachments/assets/9ccafdfb-4f22-4e67-996c-c01c4f430936)
